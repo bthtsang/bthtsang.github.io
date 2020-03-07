@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Benny T. H. Tsang, Ph. D."
+title                    : "Benny T. H. Tsang"
 title_separator          : "-"
-name                     : &name "Benny T. H. Tsang"
+name                     : &name "Benny T. H. Tsang, Ph. D."
 description              : &description "Research Scholar\nKavli Institute for Theoretical Physics"
 url                      : https://bthtsang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -85,9 +85,9 @@ author:
   bio              : "Research Scholar at the Kavli Institute for Theoretical Physics"
   location         : "Santa Barbara, CA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=nGVc2BAAAAAJ&hl=en" #"http://yourfullgooglescholarurl.com"
+  email            : "btsang@kitp.ucsb.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
