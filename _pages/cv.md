@@ -9,24 +9,29 @@ redirect_from:
 
 {% include base_path %}
 
+The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is a abbreviated version.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in Astronomy, University of Texas at Austin, 2018
+  * Advisor: Milos Milosavljevic
+  * Thesis: Monte Carlo Radiation Hydrodynamics in the Super-Eddington Regime
+* M.Phil. in Physics, University of Hong Kong, 2012
+* B.S. in Mathematics/Physics, University of Hong Kong, 2010
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Postdoctoral Scholar, Theoretical Astrophysics Center, UC Berkeley, since 2020 Sep
+* Postdoctoral Scholar, Kavli Institute for Theoretical Physics, UC Santa Barbara, 2018 - 2020 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+Publications
+======
+Please refer to the [Publications tab](http://bthtsang.github.io/publications) for the full list.
+ 
+Services and Leadership
+======
+* 
+
 Skills
 ======
 * Skill 1
@@ -36,24 +41,3 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
