@@ -1,8 +1,13 @@
 ---
 permalink: /outreach/
-title: "Markdown"
+title: "Science Communications & Outreach"
 author_profile: true
 ---
 
+# Public Talks & Guest Lectures
 
-Testing for outreach page.
+Besides research I am also engaged in sharing my research with the public.
+List KITP cafe, Santa Barbara AoT, Laguna Blanca lectures
+
+# Astrobites
+Author and administrator
