@@ -1,9 +1,10 @@
 ---
+layout: archive
 permalink: /teaching_mentoring/
-title: "Markdown"
+title: "Teaching/Mentoring"
 author_profile: true
 ---
 
 {% include base_path %}
 
-Testing for now
+Testing for outreach
