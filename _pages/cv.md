@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is a abbreviated version.
+The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is a abbreviated version. The easiest way to reach me is to [drop me an email](mailto:benny.tsang@berkeley.edu).
 
 Education
 ======
