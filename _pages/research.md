@@ -13,16 +13,20 @@ In the following, I will briefly summarize the main topics I spend the majority 
 
 ### Massive Star Clusters
 ![R136 Star Cluster in the LMC](/files/R136.jpg) 
-*Fig. 2: The minimum dominating set of a graph*
-This is my favorite image taken by the *Hubble Space Telescope*, showing the R136 star cluster in the Large Magellanic Cloud.
-- How do stellar feedback processes regular star formation in massive star clusters?
-- Is the stellar density in the cores of massive star clusters high enough to 
+*This is my favorite image taken by the Hubble Space Telescope, showing the massive star cluster R136 in the Large Magellanic Cloud.*
 
+**Why they matter:**
+Massive star clusters hold the keys to many intriguing open questions in astronomy. Their birthplaces are believed to be the most active star formation regions in the history of the universe. Massive clusters that formed at high redshifts may survive to be the globular clusters we see today. The intense stellar radiation fields and supernova explosions from the massive stars can impact galaxy evolution. The close proximity of stars in the cluster cores is conducive to forming compact object mergers that could give rise to gravitational wave signals.  
 
 ### Radiation Hydrodynamics
+![Arepo-MCRT Levitation Test](/files/ArepoMCRT-Levitation.png) 
+*The levitation test showing the intricate coupling of radiation and gas*
 
+**Why it matters:**
 
 ### Machine Learning
+https://github.com/bthtsang/DeepClassifierNoveltyDetection
+
 
 ### Software Instruments
 I use a collection of software instruments in my research. The main tools are 
