@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is a abbreviated version. The easiest way to reach me is to [drop me an email](mailto:benny.tsang@berkeley.edu).
+The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is an abbreviated version. The easiest way to reach me is to [drop me an email](mailto:benny.tsang@berkeley.edu).
 
 Education
 ======
@@ -26,7 +26,7 @@ Work experience
 
 Publications
 ======
-Please refer to the [Publications tab](http://bthtsang.github.io/publications) for the full list.
+Please refer to the [Research](http://bthtsang.github.io/publications) tab above for the full list.
  
 Services and Leadership
 ======
