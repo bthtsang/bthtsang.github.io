@@ -21,6 +21,7 @@ Besides research and mentoring, I am also engaged in sharing my research in publ
 
 
 # Astrobites
+![astrobites logo](/files/astrobites-logo-1.png)
 [astrobites.org](https://astrobites.org/) is an astronomy outreach blog maintained by graduate students all around the globe. The site publishes daily summaries of the latest research papers in astronomy.
 I was an author of the site from 2015 - 2017 ([my articles](https://astrobites.org/author/btsang/)); since then I have transitioned to contribute as one of the site administrators.
 
