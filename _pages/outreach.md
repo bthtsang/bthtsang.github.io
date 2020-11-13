@@ -13,7 +13,7 @@ Besides research and mentoring, I am also engaged in sharing my research in publ
 ## *The Science in Our Stars* @ Laguna Blanca High School
 ![Laguna Blanca Guest Lecture](/files/LagunaBlanca.JPG)
 
-## *Order from Chaos" Tracing the Life and Death of Stars* @ Cafe KITP (2020 Feb)
+## *Order from Chaos: Tracing the Life and Death of Stars* @ Cafe KITP (2020 Feb)
 ![cafeKITP event](/files/cafeKITP.jpg)
 
 ## *Forming Super Star Clusters in Supercomputers* @ Astronomy on Tap Santa Barbara
