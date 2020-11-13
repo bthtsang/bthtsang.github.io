@@ -12,7 +12,7 @@ I am currently mentoring two undergraduate students on machine learning research
 
 
 ## Teaching
-I enjoy teaching and sharing the latest news in astronomy with my students. During grad school, I was a teaching assistant in 7 different undergraduate courses (some for multiple semesters). They span from first-year introductory astronomy to advanced courses:
+I enjoy teaching and sharing the latest news in astronomy with my students. During grad school, I was a teaching assistant in 7 different undergraduate courses (some for multiple semesters). They span from first-year introductory to advanced astronomy courses:
 - Introduction to Astronomy
 - Popular Astronomy
 - Search for Extraterrestrial Life and Intelligence
