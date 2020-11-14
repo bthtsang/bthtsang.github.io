@@ -27,7 +27,8 @@ Work experience
 Publications
 ======
 Please refer to the [Research](http://bthtsang.github.io/publications) tab above for the full list.
- 
+
+<!-- 
 Services and Leadership
 ======
 * 
@@ -40,4 +41,4 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
+-->
