@@ -30,7 +30,8 @@ During the formation and the explosive deaths of massive stars, the strong coupl
 *Schematic diagram of the neural network architecture for variable star light curve classification and novelty detection (Tsang & Schultz 2019).*
 
 **Why it matters**
-With the advent of the next-generation surveys such as the Rubin Observatory, automatic pipelines capable of processing an unprecedented amount of time-domain astronomical data are required. To put it in perspective, these surveys will provide light curves from billion of stars; manual processing of such vast amount of data is simply impractical. In recent years we have also witnessed the rapid expansion in the applications of artificial neural networks in science and engineering. 
+With the advent of the next-generation surveys such as the Rubin Observatory, automatic pipelines capable of processing an unprecedented amount of time-domain astronomical data are required. To put it in perspective, these surveys will generate light curves from billion of stars; manual processing of such vast amount of data is simply impractical. In recent years we have also witnessed the rapid development of artificial neural networks in science and engineering. Being able to leverage the active development will position us to fulfill the inevitable demands.  
+
 
 <!--https://github.com/bthtsang/DeepClassifierNoveltyDetection -->
 
