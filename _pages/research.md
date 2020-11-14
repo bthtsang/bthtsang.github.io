@@ -19,14 +19,20 @@ In the following, I will briefly summarize the main topics I spend the majority 
 Massive star clusters hold the keys to many intriguing open questions in astronomy. Their birthplaces are believed to be the most active star formation regions in the history of the universe. Massive clusters that formed at high redshifts may survive to be the globular clusters we see today. The intense stellar radiation fields and supernova explosions from the massive stars can impact galaxy evolution. The close proximity of stars in the cluster cores is conducive to forming compact object mergers that could give rise to gravitational wave signals.  
 
 ### Simulating Strong Radiation-Matter Coupling
-![FLASH Levitation Test](/files/FLASH-Levitation.png) 
+![FLASH Levitation Test](/files/FLASH-Levitation.png)
 *A simulation of radiation pressure-driven wind showing the intricate coupling of radiation and gas (Tsang & Milosavljevic 2015)*
 
 **Why it matters:**
-During the formation and the explosive deaths of massive stars, the strong coupling between radiation and gas can significantly affect the dynamics and the observable signatures of the systems. Most of these interactions cannot be directly observed. Therefore, accurately modeling them can help us to develop an understanding of what key physics that controls the systems.
+During the formation and the explosive deaths of massive stars, the strong coupling between radiation and gas can significantly affect the dynamics and the observable signatures of the systems. Most of these interactions cannot be directly observed. Therefore, accurately modeling them can help us to develop an understanding of the key physics that controls the systems.
 
-### Machine Learning
-https://github.com/bthtsang/DeepClassifierNoveltyDetection
+### Machine Learning Applications
+![RNN-GMM Network Schematics](/files/RNN-GMM-schematics.png)
+*Schematic diagram of the neural network architecture for variable star light curve classification and novelty detection (Tsang & Schultz 2019).*
+
+**Why it matters**
+With the advent of the next-generation surveys such as the Rubin Observatory, automatic pipelines capable of processing an unprecedented amount of time-domain astronomical data are required. To put it in perspective, these surveys will provide light curves from billion of stars; manual processing of such vast amount of data is simply impractical. In recent years we have also witnessed the rapid expansion in the applications of artificial neural networks in science and engineering. 
+
+<!--https://github.com/bthtsang/DeepClassifierNoveltyDetection -->
 
 
 ### Software Instruments
