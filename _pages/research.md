@@ -23,7 +23,7 @@ In the following, I will briefly summarize a few past and ongoing projects.
 *This is my favorite image taken by the Hubble Space Telescope, showing the massive star cluster R136 in the Large Magellanic Cloud. (Source: NASA/ESA)*
 
 **Why this matters:**
-Massive star clusters hold the keys to many intriguing open questions in astronomy. Their birthplaces are believed to be the most active star formation regions in the history of the universe. Massive clusters that formed at high redshifts may survive to be the globular clusters we see today. The intense stellar radiation fields and supernova explosions from the massive stars can impact galaxy evolution. The close proximity of stars in the cluster cores is conducive to forming compact object mergers that could give rise to gravitational wave signals.  
+Massive star clusters hold the keys to many intriguing open questions in astronomy. Their birthplaces are believed to be the most active star formation regions in the history of the universe. Massive clusters that formed at high redshifts may survive to be the globular clusters we see today. The intense stellar radiation fields and supernova (SN) explosions from the massive stars can impact galaxy evolution. The close proximity of stars in the cluster cores is conducive to forming compact object mergers that could give rise to gravitational wave signals.  
 
 **How we modeled this:**
 The formation of massive star clusters presents a battle between two strong forces: gravity wants to bring gas toward the center, into the abyss of the gravitational potential; stellar feedback, such as radiation pressure, exerts an outward pressure to oppose the pull of gravity. The outcome of this battle is far from trivial because of the turbulent distributions of gas. In [Tsang & Milosavljevic (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4142T/abstract), we directly modeled the gravitational collapse of turbulent giant molecular clouds and the associated radiation pressure feedback from the newly formed stars in 3D. 
@@ -36,27 +36,56 @@ Contrary to the conclusions from previous 1D studies that assumed spherical symm
 ### Simulating Mass Loss from Massive Star Envelopes
 
 **Why this matters:**
-Super-Eddington energy generation and deposition in the envelopes of massive stars are common and can lead to significant mass loss. Strong stellar winds from massive stars are an important feedback mechanism that regulates star formation and circulates metals and dust grain back into the interstellar medium. In addition, substantial mass ejection from the massive star's envelope can set up a dense circumstellar medium (CSM) surrounding the star. Later on, when the massive star undergoes core collapse, the interaction between the supernova shock and the slow-moving CSM can imprint the observed spectra with narrow emission lines, the so-called Type IIn supernova ('n' for 'narrow' line). Understanding how the CSM is created can help interpret a family of similar interaction-powered supernova events.
+![IIn Ibn Schematic](/files/Smith_CSM_IIn_Ibn.png)
+*Schematic diagram of CSM interacting supernovae. The four numbered regions represent: (1) the pre-shock CSM, (2) the shocked CSM, (3) the shocked SN ejecta, and (4) the freely expanding SN ejecta. Understanding how the materials in region (1) got there is essential to the proper interpretations of many supernova signatures (Source: [Smith 2008](https://doi.org/10.1007/978-3-319-21846-5_38))*
+
+Super-Eddington energy generation and deposition in the envelopes of massive stars are common and can lead to significant mass loss. Strong stellar winds from massive stars are an important feedback mechanism that regulates star formation and circulates metals and dust grain back into the interstellar medium. In addition, substantial mass ejection from the massive star's envelope can set up a dense circumstellar medium (CSM) surrounding the star. Later on, when the massive star undergoes core collapse, the interaction between the SN shock and the slow-moving CSM can imprint the observed spectra with narrow emission lines, the so-called Type IIn SNe ('n' for 'narrow' line). Understanding how the CSM is created can help interpret a family of similar interaction-powered SN events.
+<!--stability of the outer envelop, viability of VMS/SMS. -->
 
 **How we model this:**
-Stellar winds and mass loss can be caused by a
+(Ongoing work)
+By performing radiation transport analyses on 3D massive star envelope models, we are working to examine the roles of radiative forcing due to spectral lines. 
+We are also using radiation hydrodynamical simulations to explore how super-Eddington energy deposition near stellar surfaces can induce mass loss prior to SN explosions. 
+
+<!--
 episodic nuclear shell burning 
 energy deposition by internal gravity waves
 binary interaction
-
-Such energy sources can be from the in forms of From the steep luminosity-mass relation of main sequence stars, we expect  
-IIn supernova, stability of the outer envelop, viability of VMS/SMS. 
+-->
 
 ### Simulating Strong, Radiation-Driven Winds
 ![FLASH Levitation Test](/files/FLASH-Levitation.png)
-*A simulation of radiation pressure-driven wind showing the intricate coupling of radiation and gas (Tsang & Milosavljevic 2015)*
+*A simulation of radiation pressure-driven wind showing the intricate coupling of radiation and gas in a super-Eddington environment ([Tsang & Milosavljevic 2015](https://ui.adsabs.harvard.edu/abs/2015MNRAS.453.1108T/abstract))*
 
-**Why it matters:**
-During the formation and the explosive deaths of massive stars, the strong coupling between radiation and gas can significantly affect the dynamics and the observable signatures of the systems. Most of these interactions cannot be directly observed. Therefore, accurately modeling them can help us to develop an understanding of the key physics that controls the systems.
+**Why this matters:**
+Radiation pressure from young massive stars can be an important force that drives turbulence and winds in active star-forming regions. The strength of the radiation force affects the star formation rates in the molecular clouds, which in turn could impact the evolution of the host galaxies via subsequent stellar feedback. 
+However, it is unclear how efficiently radiation couples with gas in the turbulent star-forming environments where sharp transitions in optical depths are commonplace.
+Most of these interactions are not directly observable. Therefore, accurately modeling them can help us develop an understanding of the key physics at play.
 
-## Radiation transport in transient systems
+**How we modeled this:**
+We developed a Monte Carlo radiation transport module in the hydrodynamics code FLASH, and applied it to a 2D setup where an intense radiation field was set to launch a super-Eddington wind against gravity. Due to its profound implications, this setup has become a standard test problem for radiation hydrodynamics methods.
+
+**What we found:** 
+We discovered qualitatively different gas dynamics from previous studies that were based on lower-accuracy radiation transport schemes (e.g., flux-limited diffusion (FLD), first-moment (M1) closure). 
+With our Monte Carlo scheme with superior accuracy, the gas layer received significant forcing and was launched into strong winds; whereas in lower-order methods the gas layer settled into a quasi-steady state without significant radiative acceleration. This work highlights the importance of accurate numerical treatment for radiation in super-Eddington environments.
+
+
+
+## Radiation transport modeling of transient systems
 ### Simulating Core-Collapse Supernova Light Curves
+**Why this matters:**
+Most massive stars with mass above 8 solar masses end their lives in energetic core-collapse supernova (CCSN) explosions. A key challenge for astronomers is to reconcile the large variety of observed SN events with the properties of the massive star progenitors and their explosions. In order to achieve physical understanding of the full SN population, it is crucial to be able to reliably constrain progenitor and explosion properties from observations. 
 
+
+![II-P Light Curve Comparison](/files/IIP_LCs.png) 
+*Comparisons of Type II-P supernova light curves generated by two fundamentally different radiation transport schemes: the moment-based method in STELLA, and the Monte Carlo method in Sedona. The close matches between the two attest to the fidelity of our radiation transport modeling approaches.*
+
+**How we modeled this:**
+We focused on the modeling of Type II-Plateau SNe and the most readily available data product - their light curves.
+We modeled a suite of red supergiants and their explosions using the MESA stellar evolution code. We mapped the models at the moment of shock breakout to two very different radiation transport code: the moment-based code STELLA, and the Monte Carlo-based code Sedona. We compared the output light curves and the time-dependent ejecta structures.
+
+**What we found:**
+Recent studies have shown that there is a high degree of degeneracy between light curve features and progenitor properties (mass, radius, explosion energy, etc). We confirmed such degeneracy and found that the light curves produced from the two codes agreed to about 5 - 10%. This remarkable agreement offers confidence in our radiation transport modeling pipelines.  
 
 ## Machine Learning Applications in Astronomy
 ### Variable Star Light Curve Classification
