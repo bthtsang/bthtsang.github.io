@@ -53,6 +53,10 @@ With the advent of the next-generation surveys such as the Rubin Observatory, au
 
 <!--https://github.com/bthtsang/DeepClassifierNoveltyDetection -->
 
-<!--
 ### Software Instruments
-I use a collection of software instruments in my research. The main tools are the FLASH hydrodynamical code, ... -->
+Here's a list of software instruments I use in my research. 
+- [FLASH](http://flash.uchicago.edu/site/): multi-physics, magneto-hydrodynamics code
+- [Sedona](https://ui.adsabs.harvard.edu/abs/2006ApJ...651..366K/abstract): Monte Carlo radiation transport code for supernovae and other transients
+- [Arepo](https://arepo-code.org/about-arepo): moving-mesh magneto-hydrodynamics code
+- [STELLA](http://www.ascl.net/1108.013): a 1D multi-group radiation hydrodynamics code
+- [Tensorflow](https://www.tensorflow.org/): a general purpose machine learning development platform
