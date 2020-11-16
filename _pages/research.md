@@ -36,7 +36,7 @@ Contrary to the conclusions from previous 1D studies that assumed spherical symm
 ### Simulating Mass Loss from Massive Star Envelopes
 
 **Why this matters:**
-Radiation plays an important role in the structure and evolution of massive stars.
+Radiation plays an important role in the evolution of massive stars. From the steep luminosity-mass relation of massive stars on the main sequence (L \propto M^3), we expect 
 IIn supernova, stability of the outer envelop, viability of VMS/SMS. 
 
 ### Simulating Strong, Radiation-Driven Winds
