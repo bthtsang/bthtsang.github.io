@@ -11,6 +11,7 @@ My research includes a broad range of topics in stellar astrophysics. They can b
 - Modeling the effects of radiation-matter coupling in super-Eddington systems;
 - Predicting the observational signatures using radiation transfer techniques;
 - Developing and applying deep learning models to analyze astronomical data. 
+
 Using analytical and numerical methods, I focus primarily on the study of how radiation impacts the lives and deaths of massive stars. I strive to understand the physical mechanisms governing the dynamics of radiation-dominated stellar systems and to provide insights on how to interpret their observations. My research projects also necessitate continuous improvements of the numerical methods in radiation transport and hydrodynamics, which I also devote a portion of my time on.
 In the following, I will briefly summarize a few past and ongoing projects. 
 
@@ -21,12 +22,24 @@ In the following, I will briefly summarize a few past and ongoing projects.
 ![R136 Star Cluster in the LMC](/files/R136.jpg) 
 *This is my favorite image taken by the Hubble Space Telescope, showing the massive star cluster R136 in the Large Magellanic Cloud. (Source: NASA/ESA)*
 
-**Why they matter:**
+**Why this matters:**
 Massive star clusters hold the keys to many intriguing open questions in astronomy. Their birthplaces are believed to be the most active star formation regions in the history of the universe. Massive clusters that formed at high redshifts may survive to be the globular clusters we see today. The intense stellar radiation fields and supernova explosions from the massive stars can impact galaxy evolution. The close proximity of stars in the cluster cores is conducive to forming compact object mergers that could give rise to gravitational wave signals.  
+
+**How we modeled this:**
+The formation of massive star clusters presents a battle between two strong forces: gravity wants to bring gas toward the center, into the abyss of the gravitational potential; stellar feedback, such as radiation pressure, exerts an outward pressure to oppose the pull of gravity. The outcome of this battle is far from trivial because of the turbulent distributions of gas. In [Tsang & Milosavljevic (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4142T/abstract), we directly modeled the gravitational collapse of turbulent giant molecular clouds and the associated radiation pressure feedback from the newly formed stars in 3D. 
+
+**What we found:**
+Contrary to the conclusions from previous 1D studies that assumed spherical symmetry, radiation pressure is inefficient in halting the gas infall due to a density-radiative flux anti-correlation. Essentially, radiation tends to choose the paths of least resistance and leaks through low-density channels.
+![Volume Rendering of Turbulent Cluster-forming Clouds](/files/VR_SSC.png) 
+*Volume rendering of the turbulent gas distributions around a forming massive star cluster core. The red-to-violet spectrum denotes high-to-low gas density. (First place in the [Visualizing Science contest in 2017](https://cns.utexas.edu/news/visualizing-science-2017))*
 
 ### Simulating Mass Loss from Massive Star Envelopes
 
-### Simulating Strong Radiation-Matter Coupling
+**Why this matters:**
+Radiation plays an important role in the structure and evolution of massive stars.
+IIn supernova, stability of the outer envelop, viability of VMS/SMS. 
+
+### Simulating Strong, Radiation-Driven Winds
 ![FLASH Levitation Test](/files/FLASH-Levitation.png)
 *A simulation of radiation pressure-driven wind showing the intricate coupling of radiation and gas (Tsang & Milosavljevic 2015)*
 
@@ -53,7 +66,7 @@ With the advent of the next-generation surveys such as the Rubin Observatory, au
 
 <!--https://github.com/bthtsang/DeepClassifierNoveltyDetection -->
 
-### Software Instruments
+## Software Instruments
 Here's a list of software instruments I use in my research. 
 - [FLASH](http://flash.uchicago.edu/site/): multi-physics, magneto-hydrodynamics code
 - [Sedona](https://ui.adsabs.harvard.edu/abs/2006ApJ...651..366K/abstract): Monte Carlo radiation transport code for supernovae and other transients
