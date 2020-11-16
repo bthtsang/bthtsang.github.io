@@ -29,14 +29,22 @@ Massive star clusters hold the keys to many intriguing open questions in astrono
 The formation of massive star clusters presents a battle between two strong forces: gravity wants to bring gas toward the center, into the abyss of the gravitational potential; stellar feedback, such as radiation pressure, exerts an outward pressure to oppose the pull of gravity. The outcome of this battle is far from trivial because of the turbulent distributions of gas. In [Tsang & Milosavljevic (2018)](https://ui.adsabs.harvard.edu/abs/2018MNRAS.478.4142T/abstract), we directly modeled the gravitational collapse of turbulent giant molecular clouds and the associated radiation pressure feedback from the newly formed stars in 3D. 
 
 **What we found:**
-Contrary to the conclusions from previous 1D studies that assumed spherical symmetry, radiation pressure is inefficient in halting the gas infall due to a density-radiative flux anti-correlation. Essentially, radiation tends to choose the paths of least resistance and leaks through low-density channels.
+Contrary to the conclusions from previous 1D studies that assumed spherical symmetry, radiation pressure is inefficient in halting the gas infall due to a density-radiative flux anti-correlation. Essentially, radiation tends to choose the paths of least resistance and leaks through low-density channels. Such inefficiency in radiative forcing allows gas accretion to proceed, leading to high star formation efficiency. 
 ![Volume Rendering of Turbulent Cluster-forming Clouds](/files/VR_SSC.png) 
 *Volume rendering of the turbulent gas distributions around a forming massive star cluster core. The red-to-violet spectrum denotes high-to-low gas density. (First place in the [Visualizing Science contest in 2017](https://cns.utexas.edu/news/visualizing-science-2017))*
 
 ### Simulating Mass Loss from Massive Star Envelopes
 
 **Why this matters:**
-Radiation plays an important role in the evolution of massive stars. From the steep luminosity-mass relation of massive stars on the main sequence (L \propto M^3), we expect 
+Super-Eddington energy generation and deposition in the envelopes of massive stars are common and can lead to significant mass loss. Strong stellar winds from massive stars are an important feedback mechanism that regulates star formation and circulates metals and dust grain back into the interstellar medium. In addition, substantial mass ejection from the massive star's envelope can set up a dense circumstellar medium (CSM) surrounding the star. Later on, when the massive star undergoes core collapse, the interaction between the supernova shock and the slow-moving CSM can imprint the observed spectra with narrow emission lines, the so-called Type IIn supernova ('n' for 'narrow' line). Understanding how the CSM is created can help interpret a family of similar interaction-powered supernova events.
+
+**How we model this:**
+Stellar winds and mass loss can be caused by a
+episodic nuclear shell burning 
+energy deposition by internal gravity waves
+binary interaction
+
+Such energy sources can be from the in forms of From the steep luminosity-mass relation of main sequence stars, we expect  
 IIn supernova, stability of the outer envelop, viability of VMS/SMS. 
 
 ### Simulating Strong, Radiation-Driven Winds
