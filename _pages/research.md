@@ -4,7 +4,7 @@ title: "Research"
 author_profile: true
 ---
 
-## Please find my full publication list at [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/tbxiKajfTsSjDC7Ir7sZxA) and [Google Scholar](https://scholar.google.com/citations?user=nGVc2BAAAAAJ&hl=en).
+## Please find my full publication list at [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/tbxiKajfTsSjDC7Ir7sZxA), [Google Scholar](https://scholar.google.com/citations?user=nGVc2BAAAAAJ&hl=en), and [ORCID](http://orcid.org/0000-0002-6543-2993).
 
 ## Research Interests 
 My research includes a broad range of topics in stellar astrophysics. They can be roughly grouped into three subjects:
@@ -40,7 +40,8 @@ Contrary to the conclusions from previous 1D studies that assumed spherical symm
 
 **Why this matters:**
 Super-Eddington energy generation and deposition in the envelopes of massive stars are common and can lead to significant mass loss. Strong stellar winds from massive stars are an important feedback mechanism that regulates star formation and circulates metals and dust grain back into the interstellar medium. In addition, substantial mass ejection from the massive star's envelope can set up a dense circumstellar medium (CSM) surrounding the star. Later on, when the massive star undergoes core collapse, the interaction between the SN shock and the slow-moving CSM can imprint the observed spectra with narrow emission lines, the so-called Type IIn SNe ('n' for 'narrow' line). Understanding how the CSM is created can help interpret a family of similar interaction-powered SN events.
-<!--stability of the outer envelop, viability of VMS/SMS. -->
+
+The overall stability of massive star envelopes also has implications on how realistic very massive stars (VMSs) and super-massive stars (SMSs) are. VMSs and SMSs are unusually massive stars (VMSs: 100-1000 Msun; SMSs: 10000 - 100000 Msun) theorized to be the intermediate objects that give rise to supermassive black holes (SMBHs). By examining the stability of their stellar envelopes and the extent of mass loss, we can better constrain the viability of different SMBH formation channels.
 
 **How we model this:**
 (Ongoing work)

@@ -24,14 +24,32 @@ Work experience
 * Postdoctoral Scholar, Theoretical Astrophysics Center, UC Berkeley, since 2020 Sep
 * Postdoctoral Scholar, Kavli Institute for Theoretical Physics, UC Santa Barbara, 2018 - 2020 
 
+Research Interests
+======
+* Computational astrophysics - Radiation hydrodynamics - Stars and Supernovae - Machine Learning in Astronomy
+
 Publications
 ======
 Please refer to the [Research](http://bthtsang.github.io/publications) tab above for the full list.
 
-<!-- 
-Services and Leadership
+Teaching & Mentoring
 ======
-* 
+* Mentor of undergraduate research students Siddhant Solanki (UC Santa Barbara) and Abhay Agarwal (UC Berkeley).
+* Graduate teaching assistant for 7 undergraduate classes in 12 semesters (2012-2018)
+Please refer to the [Teaching & Mentoring](https://bthtsang.github.io/teaching_mentoring/) tab above for details.
+
+Membership & Services
+======
+* Reviewer: AAS journals, **IEEE** Access, since 2019
+* Author & Administrator, [astrobites.org](https://astrobites.org/), 2017 - present
+* Member, [National Association of Science Writers](https://www.nasw.org/), 2017 - present
+
+Outreach
+======
+* Guest lecturer @ [Laguna Blanca High School](https://www.lagunablanca.org/)'s Science Research Program, since 2019 Feb
+* Speaker at [cafe KITP](https://www.kitp.ucsb.edu/outreach/cafe-kitp/order-chaos-tracing-life-and-death-stars), 2019 Aug
+* Speaker at Astronomy on Tap Santa Barbara, 2018 Sep
+* Speaker at Astronomy on Tap ATX, 2018 Feb
 
 Skills
 ======
@@ -41,4 +59,4 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
--->
+
