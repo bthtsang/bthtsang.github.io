@@ -92,15 +92,22 @@ Recent studies have shown that there is a high degree of degeneracy between ligh
 ![RNN-GMM Network Schematics](/files/RNN-GMM-schematics.png)
 *Schematic diagram of the neural network architecture for variable star light curve classification and novelty detection (Tsang & Schultz 2019).*
 
-In face of the rapidly growing volume of time-domain astronomical data (think [Rubin Observatory](https://www.lsst.org/) and [Zwicky Transient Facility (ZTF)](https://www.ztf.caltech.edu/)), I am actively exploring the applications of artificial neural networks in automating our analysis pipelines. 
 
 **Why it matters**
-With the advent of the next-generation surveys such as the Rubin Observatory, automatic pipelines capable of processing an unprecedented amount of time-domain astronomical data are required. To put it in perspective, these surveys will generate light curves from billion of stars; manual processing of such vast amount of data is simply impractical. In recent years we have also witnessed the rapid development of artificial neural networks in science and engineering. Being able to leverage the active development will position us to fulfill the inevitable analysis demands.  
+In face of the rapidly growing volume of time-domain astronomical data (think [Rubin Observatory](https://www.lsst.org/) and [Zwicky Transient Facility (ZTF)](https://www.ztf.caltech.edu/)), automatic pipelines capable of processing an unprecedented amount of time-domain astronomical data are required. To put it in perspective, these surveys will generate light curves from billion of stars; manual processing of such vast amount of data is simply impractical. In recent years we have also witnessed the rapid development of artificial neural networks in science and engineering. I see a clear opportunity in leveraging the current active development to prepare for the inevitable analysis demands in astronomy.  
 
+**How is our neural network set up:**
+We combined a recurrent neural network auto-encoder for unsupervised feature extraction with an estimation network for supervised classification and novelty detection. We drew inspiration from two recent works on [unevenly-sampled light curve classification](https://ui.adsabs.harvard.edu/abs/2018NatAs...2..151N/abstract) and [anomaly detection in commercial laboratories](https://openreview.net/forum?id=BJJLHbb0-).
+The novelty detection functionality was based on a Gaussian Mixture Model (GMM) implemented in the estimation network.
+
+**What we found:**
+Our network attained a classification accuracy of about 99%, which is on par with the conventional workhorse of random forest (RF) classifier. The network was also capable of detecting previously unseen types of variability with precision 0.89, recall 0.82, and an F1 score of 0.85. In addition, our network has 10 to 100 times fewer trainable parameters than the RF approach. We found that simultaneous training of the auto-encoder with the estimation network was mutually beneficial, resulting in faster learning of the auto-encoder and higher classification/novelty detection performance of the estimation network.
+
+<!--
 ### Improving Performance with Data Augmentation
 
-### 
-
+### Learning astro-statistics from turbulence simulations
+-->
 <!--https://github.com/bthtsang/DeepClassifierNoveltyDetection -->
 
 ## Software Instruments
