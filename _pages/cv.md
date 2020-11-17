@@ -13,7 +13,7 @@ The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_C
 
 Education
 ======
-* Ph.D in Astronomy, University of Texas at Austin, 2018
+* Ph.D. in Astronomy, University of Texas at Austin, 2018
   * Advisor: Milos Milosavljevic
   * Thesis: Monte Carlo Radiation Hydrodynamics in the Super-Eddington Regime
 * M.Phil. in Physics, University of Hong Kong, 2012
@@ -35,7 +35,7 @@ Please refer to the [Research](http://bthtsang.github.io/publications) tab above
 Teaching & Mentoring
 ======
 * Mentor of undergraduate research students Siddhant Solanki (UC Santa Barbara) and Abhay Agarwal (UC Berkeley).
-* Graduate teaching assistant for 7 undergraduate classes in 12 semesters (2012-2018)
+* Graduate teaching assistant for 7 undergraduate classes in 12 semesters (2012-2018).
 Please refer to the [Teaching & Mentoring](https://bthtsang.github.io/teaching_mentoring/) tab above for details.
 
 Membership & Services
