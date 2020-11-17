@@ -40,7 +40,7 @@ Please refer to the [Teaching & Mentoring](https://bthtsang.github.io/teaching_m
 
 Membership & Services
 ======
-* Reviewer: AAS journals, **IEEE** Access, since 2019
+* Reviewer: AAS journals, IEEE Access, since 2019
 * Author & Administrator, [astrobites.org](https://astrobites.org/), 2017 - present
 * Member, [National Association of Science Writers](https://www.nasw.org/), 2017 - present
 
