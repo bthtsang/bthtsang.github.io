@@ -51,6 +51,7 @@ Outreach
 * Speaker at Astronomy on Tap Santa Barbara, 2018 Sep
 * Speaker at Astronomy on Tap ATX, 2018 Feb
 
+<!--
 Skills
 ======
 * Skill 1
@@ -59,4 +60,4 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
+-->
