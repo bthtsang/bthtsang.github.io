@@ -35,10 +35,10 @@ To examine what a non-spherically symmetric mode of energy deposition would do, 
 
 <iframe src="https://player.vimeo.com/video/621740268" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-The first 6.3 years were identical to the spherical symmetric case. However, the subsequent behaviors after energy deposition were quite different. The top layer expanded outward with some degree of RT instability development. The sideway expansion of the "bubble" induced shocks in the remaining stellar materials, and the amount of mass loss was only about 1/3 of the spherical shell case.
+The first 6.3 years were identical to the spherical symmetric case. However, the subsequent behaviors after energy deposition were quite different. The top layer expanded outward with some degree of RT instability development. The sideways expansion of the "bubble" induced shocks in the remaining stellar materials, and the amount of mass loss was only about 1/3 of the spherical shell case. It seems to suggest that dimensionality matters to the outcome. 
 
 ## What's next? 
 - Examine and quantify the relation between different modes/strengths of energy deposition and mass loss.
-- Analyze the density distributions of the outer/ejected layers, infer observational consequences.
+- Analyze the density distributions of the outer/ejected layers, infer potential observational consequences.
 - Contrast with models in 1D or 2D.
 - Include proper radiation transport.
