@@ -18,8 +18,13 @@ author_profile: true
 
 **Preliminary Results:**
 
-To make sure the FLASH model can capture a realistic RSG envelope, we let the model "rest" for a few dynamical times.
+To make sure the FLASH model can capture a realistic RSG envelope, we let the model "rest" for a few dynamical times. Below I am showing the density slice (along a constant phi) of the 3D simulation. In the setup \theta spans \pi/4 to 3\pi/4, while \phi is from 0 to \pi.
+
 <iframe src="https://player.vimeo.com/video/621738870" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+After about 1.7 years, convection started to develop (seeded numerically) and the envelope settled into a rather dynamically stable state.
+
+Next, expecting substantial mass loss, we mapped the same model onto a domain 2x in radial extent. Again we allow the model to settle in a quasi-steady state before depositing 2.5 \times 10^{47} erg over 116 days (10^7 s) at 430 +/- 10 Rsun.
 
 
 **What's next?** 
