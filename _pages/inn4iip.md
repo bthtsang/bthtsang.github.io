@@ -1,7 +1,7 @@
 ---
 permalink: /inn4iip/
 title: "Supernova Progenitor Parameter Estimation with Invertible Neural Networks (INNs)"
-author_profile: true
+author_profile: false
 ---
 This is a small (but still interesting) side project I did with INNs. The code I wrote for this project can be found on [my GitHub page](https://github.com/bthtsang/FrEIA/blob/master/inn4iip.py)
 
