@@ -16,11 +16,14 @@ INN is a recent deep learning architecture designed for reliable posterior estim
 With the imminent deployment of new observatories (e.g. [the Vera Rubin Observatory](https://www.lsst.org/), [James Webb Space Telescope](https://www.jwst.nasa.gov/)), it is timely to explore its applications in real-world scientific settings.
 
 
-**How we approached this:**
-We trained 
-We trained the baseline NeRF network ([official implementation](https://www.matthewtancik.com/nerf)) using volume rendering images of a 3D simulation of turbulent interstellar gas (backdrop to form stars). Our goal was to examine whether NeRF is applicable to render scientific simulations. We used 100 input images/camera poses for training, and for testing we render the "learned simulation" with a camera fly-around.
+**How I approached this:**
+I built an INN for the supernova application using the [Framework for Easily Invertible Architecture (FrEIA)](https://github.com/VLL-HD/FrEIA), a pytorch-based library. 
+The exact INN architecture was rather basic, with three affine coupling blocks of *GLOW* type interlaced with random permutation layers. The sub-networks in the affine coupling layers are simple fully-connected networks with 3 layers of width 64.
+The supernova model dataset was taken from my [previous published work](https://arxiv.org/abs/2006.01832). Altogether, there are 421 parameters-light curve pairs. Given the relatively small size of the dataset, the size of the INN was also limited (only about 101,000 trainable parameters).
+My goal is to examine whether such a basic INN is applicable to the supernova inference problem. A total of 337 samples were used in training, while 84 were held out for testing.
 
-**What we found:**
+
+**What I found:**
 Show parameter plots with diagonal lines
 Show example parameter for some objects
 
