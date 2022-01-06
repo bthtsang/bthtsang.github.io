@@ -48,6 +48,6 @@ In this next example, the parameters appear to be more well-constrained. It does
 
 **What's next?** 
 
-New observatories will soon routinely discover many new supernovae like the ones we modeled above. Having a reliable and readily extendable framework to infer supernovae's progenitor parameters will be crucial. This exercise demonstrates that INNs can be 
-Promising directions for future work include expanding the progenitor model library (both in the number of data samples and physical parameters), 
+New observatories will soon routinely discover many new supernovae like the ones we modeled above. Having a reliable and readily extendable framework to infer supernovae's progenitor parameters will be crucial. This exercise demonstrates that INNs can be a powerful and flexible architecture to solve the inverse problem of parameter estimation.
+Promising directions for future work include expanding the progenitor model library (both in the number of models and physical parameters) and devising ways to incorporate additional prior information (parameter estimates from other observations).
 
