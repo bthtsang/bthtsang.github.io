@@ -26,21 +26,28 @@ There are four main physical parameters that determine the supernovae's observed
 
 **What I found:**
 
-To assess the performance of the INN on our inference problem, we first compare the predicted parameter estimates with the true values. Below we show the scatter plots summarizing the results for two of the key parameters: the explosion energy ($$E_{rm exp}$$) and the progenitor radius ($$R_{\rm p}$$). The blue crosses denote the predict/true values while the vertical error bars represent the 1-sigma standard deviation of the predictions. The solid black lines show perfect predictions (predicted = true). 
+To assess the performance of the INN on our inference problem, we first compare the predicted parameter estimates with the true values. Below we show the scatter plots summarizing the results for two of the key parameters: the explosion energy ($$E_{\rm exp}$$) and the progenitor radius ($$R_{\rm p}$$). The blue crosses denote the predict/true values while the vertical error bars represent the 1-sigma standard deviation of the predictions. The solid black lines show perfect predictions (predicted = true). 
+
 ![Predicted vs True Eexp](/files/par0_scatter.png)
 ![Predicted vs True Rp](/files/par3_scatter.png)
 
 For $$E_{\rm exp}$$, the majority of the predictions follows the expected true values. The larger scatter at low energy is expected from the limited data samples in the dataset.
-For $$R_{\rm p}$$, we see that the network is much more uncertain, confirming the difficulty in predicting the progenitor radius due to model degeneracy.
+For $$R_{\rm p}$$, we see that the network is much more uncertain, **confirming the known difficulty in predicting the progenitor radius due to model degeneracy**.
 
+Next, let's look at some posterior distributions from selected supernova models. 
 
-2. Posterior distributions of selected supernova models.
-Show example parameter for some objects
+![SN 64 Posteriors](/files/par_hist_64.png)
 
+The figure above shows the posterior distributions for a selected test sample predicted by the INN. The blue histograms show the estimated distributions, with orange vertical lines marking the mean value (solid) and 1-sigma range (dashed). The black line in each histogram indicates the true value for the test sample.
+In this example, the distributions are quite wide and the inferences are uncertain. These histograms capture the correct behavior due to the intrinsic degeneracy in the parameter estimation. 
 
+![SN 36 Posteriors](/files/par_hist_36.png)
 
-The video above shows the output view. High-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - **it accurately retains the complex filamentary structures of the turbulent gas while maintaining a realistic 3D sense of the simulation.**
+In this next example, the parameters appear to be more well-constrained. It does not mean that we somehow broke the parameter degeneracy. The lack of spread in the posterior distributions is due to the limited number of data samples in this part of the parameter space.
 
 
 **What's next?** 
-In astronomy, observation is fundamentally limited to a single view (the view from Earth). In practice, it will be valuable to reconstruct the 3D scenes around different astronomical objects using a single input view. Ongoing work focuses on optimizing NeRF architectures with one-shot/few-shot image encoding (e.g., [PixelNeRF](https://github.com/sxyu/pixel-nerf)).
+
+New observatories will soon routinely discover many new supernovae like the ones we modeled above. Having a reliable and readily extendable framework to infer supernovae's progenitor parameters will be crucial. This exercise demonstrates that INNs can be 
+Promising directions for future work include expanding the progenitor model library (both in the number of data samples and physical parameters), 
+
