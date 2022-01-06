@@ -18,17 +18,26 @@ With the imminent deployment of new observatories (e.g. [the Vera Rubin Observat
 
 **How I approached this:**
 I built an INN for the supernova application using the [Framework for Easily Invertible Architecture (FrEIA)](https://github.com/VLL-HD/FrEIA), a pytorch-based library. 
-The exact INN architecture was rather basic, with three affine coupling blocks of *GLOW* type interlaced with random permutation layers. The sub-networks in the affine coupling layers are simple fully-connected networks with 3 layers of width 64.
-The supernova model dataset was taken from my [previous published work](https://arxiv.org/abs/2006.01832). Altogether, there are 421 parameters-light curve pairs. Given the relatively small size of the dataset, the size of the INN was also limited (only about 101,000 trainable parameters).
-My goal is to examine whether such a basic INN is applicable to the supernova inference problem. A total of 337 samples were used in training, while 84 were held out for testing.
+The exact INN architecture was rather basic, with three affine coupling blocks of *GLOW* type interlaced with random permutation layers. The sub-networks in the affine coupling layers were simple fully-connected networks with 3 layers of width 64.
+The supernova model dataset was taken from my [previous published work](https://arxiv.org/abs/2006.01832). Altogether, there were 421 parameters-light curve pairs. Given the relatively small size of the dataset, the size of the INN was also limited (only about 101,000 trainable parameters).
+My goal was to examine whether such a basic INN is applicable to the supernova inference problem. A total of 337 samples were used in training, while 84 were held out for testing.
+There are four main physical parameters that determine the supernovae's observed light curves, namely, the progenitor mass, progenitor radius, explosion energy, and the mass of radioactive nickel.
 
 
 **What I found:**
+
+To assess the performance of the INN on our inference problem, we first compare the predicted parameter estimates with the true values. Below we show the scatter plots summarizing the results from two of the key values: the explosion energy ($$E_{exp}$$) and the progenitor radius ($$R_{p}$$). The blue crosses denote the predict/true values while the vertical error bars represent the 1-sigma standard deviation of the predictions. The solid black lines are the x=y lines showing the expectation of perfect prediction (predicted value = true value). 
+![Predicted vs True Eexp](/files/par0_scatter.png)
+![Predicted vs True Rp](/files/par3_scatter.png)
+In general, the INN performs 
+1. Good parameter inference. Scattered plots of two key parameters. Not perfect, showing degeneracy.
+
 Show parameter plots with diagonal lines
+
+2. Posterior distributions of selected supernova models.
 Show example parameter for some objects
 
 
-<iframe src="https://player.vimeo.com/video/587604817?h=2db627bf89" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 The video above shows the output view. High-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - **it accurately retains the complex filamentary structures of the turbulent gas while maintaining a realistic 3D sense of the simulation.**
 
