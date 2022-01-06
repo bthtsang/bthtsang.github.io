@@ -26,13 +26,13 @@ There are four main physical parameters that determine the supernovae's observed
 
 **What I found:**
 
-To assess the performance of the INN on our inference problem, we first compare the predicted parameter estimates with the true values. Below we show the scatter plots summarizing the results from two of the key values: the explosion energy ($$E_{exp}$$) and the progenitor radius ($$R_{p}$$). The blue crosses denote the predict/true values while the vertical error bars represent the 1-sigma standard deviation of the predictions. The solid black lines are the x=y lines showing the expectation of perfect prediction (predicted value = true value). 
+To assess the performance of the INN on our inference problem, we first compare the predicted parameter estimates with the true values. Below we show the scatter plots summarizing the results for two of the key parameters: the explosion energy ($$E_{rm exp}$$) and the progenitor radius ($$R_{\rm p}$$). The blue crosses denote the predict/true values while the vertical error bars represent the 1-sigma standard deviation of the predictions. The solid black lines show perfect predictions (predicted = true). 
 ![Predicted vs True Eexp](/files/par0_scatter.png)
 ![Predicted vs True Rp](/files/par3_scatter.png)
-In general, the INN performs 
-1. Good parameter inference. Scattered plots of two key parameters. Not perfect, showing degeneracy.
 
-Show parameter plots with diagonal lines
+For $$E_{\rm exp}$$, the majority of the predictions follows the expected true values. The larger scatter at low energy is expected from the limited data samples in the dataset.
+For $$R_{\rm p}$$, we see that the network is much more uncertain, confirming the difficulty in predicting the progenitor radius due to model degeneracy.
+
 
 2. Posterior distributions of selected supernova models.
 Show example parameter for some objects
