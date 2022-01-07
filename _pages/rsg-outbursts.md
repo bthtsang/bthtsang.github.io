@@ -1,7 +1,7 @@
 ---
 permalink: /rsg-outbursts/
 title: "Simulating RSG Pre-supernova Outbursts"
-author_profile: true
+author_profile: false
 ---
 
 ## Plans

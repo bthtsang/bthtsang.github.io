@@ -1,7 +1,7 @@
 ---
 permalink: /nerf/
 title: "Exploring Neural Radiance Fields (NeRFs)"
-author_profile: true
+author_profile: false
 ---
 
 
@@ -14,7 +14,8 @@ We trained the baseline NeRF network ([official implementation](https://www.matt
 
 **What we found:**
 <iframe src="https://player.vimeo.com/video/587604817?h=2db627bf89" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-The video above shows the output view. Here high-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - it accurately retains the complex filamentary structures of the turbulent gas while maintaining a realistic 3D sense of the simulation.
+
+The video above shows the output view. High-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - **it accurately retains the complex filamentary structures of the turbulent gas while maintaining a realistic 3D sense of the simulation.**
 
 
 **What's next?** 
