@@ -13,7 +13,8 @@ My research includes a broad range of topics in stellar astrophysics. They can b
 - Developing and applying deep learning models to analyze astronomical data. 
 
 Using analytical and numerical methods, I focus primarily on the study of how radiation impacts the lives and deaths of massive stars. I strive to understand the physical mechanisms governing the dynamics of radiation-dominated stellar systems and to provide insights on how to interpret their observations. My research projects also necessitate continuous improvements of the numerical methods in radiation transport and hydrodynamics, which I also devote a portion of my time on.
-In the following, I will briefly summarize a few past and ongoing projects. 
+[//]:# In the following, I will briefly summarize a few past and ongoing projects. 
+In the following, you will find links to a few ongoing projects that I am working on.
 
 
 ## Lives of Massive Stars
