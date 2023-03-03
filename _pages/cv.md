@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-The full PDF version can be found [here](http://bthtsang.github.io/files/Tsang_CV.pdf) (Last updated Nov 2020). Below is an abbreviated version. The easiest way to reach me is to [drop me an email](mailto:benny.tsang@berkeley.edu).
+The full PDF version can be found [here](http://bthtsang.github.io/files/BennyTsang_CV.pdf) (Last updated March 2023). Below is an abbreviated version. The easiest way to reach me is to [drop me an email](mailto:benny.tsang@berkeley.edu).
 
 Education
 ======
@@ -26,7 +26,7 @@ Work experience
 
 Research Interests
 ======
-* Computational astrophysics - Radiation hydrodynamics - Stars and Supernovae - Machine Learning in Astronomy
+* Computational astrophysics - Radiation Transport  - Hydrodynamics - Machine Learning in Astronomy - Stars and Supernovae
 
 Publications
 ======
@@ -40,7 +40,8 @@ Please refer to the [Teaching & Mentoring](https://bthtsang.github.io/teaching_m
 
 Membership & Services
 ======
-* Reviewer: AAS journals, IEEE Access, since 2019
+* Co-host: weekly arXiv discussion, UC Berkeley Astronomy, 2022 - present
+* Reviewer: AAS journals, A&A, MNRAS, IEEE Access, since 2019
 * Author & Administrator, [astrobites.org](https://astrobites.org/), 2017 - present
 * Member, [National Association of Science Writers](https://www.nasw.org/), 2017 - present
 
