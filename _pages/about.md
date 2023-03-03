@@ -17,5 +17,3 @@ Recently, I have also become a machine learning practitioner. My goal is to leve
 
 Before Berkeley, I was a postdoctoral researcher at the [Kavli Institute for Theoretical Physics, UC Santa Barbara](https://www.kitp.ucsb.edu/) (2018 - 2020). I received my Ph.D. from the University of Texas at Austin, studying the formation of massive stars. 
 
-#Before that, I did a B.S. in Mathematics and Physics and an M.Phil. in Physics at the University of Hong Kong. 
-
