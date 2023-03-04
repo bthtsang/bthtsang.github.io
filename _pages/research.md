@@ -8,16 +8,16 @@ author_profile: true
 
 ## Research Interests 
 My research involves a broad range of topics in computational astrophysics. They can roughly be grouped into:
-- Improving the efficiency and accuracy of computational radiation/light transport and fluid dynamics on heterogeneous computing platforms;
-- Developing and applying deep learning models to improve radiation/light transport and astronomical data analysis;
-- Studying the effects of strong radiation-matter coupling in stellar systems.
+- Enhance the efficiency and accuracy of radiation/light transport and fluid dynamics simulations on heterogeneous computing platforms;
+- Develop and deploy deep learning techniques to streamline our radiation/light transport and data analysis workflows;
+- Study the effects of strong radiation-matter coupling in stellar systems.
 
 In the following, you will find links to a few ongoing/side projects that I am working on.
 
 ## Ongoing Work
 - [Exploring the applications of neural radiance fields in science visualization](https://bthtsang.github.io/nerf/)
 - [Supernova progenitor parameter estimation with invertible neural networks](https://bthtsang.github.io/inn4iip/)
-- [Simulating pre-supernova outbursts from red supergiants](https://bthtsang.github.io/rsg-outbursts/)
+- [Simulating pre-supernova outbursts from red supergiant stars](https://bthtsang.github.io/rsg-outbursts/)
 
 ## Software Instruments
 Here's a list of software instruments I use in my research. 
