@@ -18,9 +18,11 @@ We trained the baseline NeRF network ([official implementation](https://www.matt
 
 <iframe src="https://player.vimeo.com/video/587604817?h=2db627bf89" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-The video above shows the output view. High-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - **it accurately retains the complex filamentary structures of the turbulent gas while maintaining a realistic 3D sense of the simulation.**
+The video above shows the output view. High-density gas is represented by red, low-density gas is represented by blue; intermediate values of density are in yellow/green. The NeRF-generated view shows promising performance - it accurately retains the **complex filamentary structures of the turbulent gas** while maintaining a realistic 3D sense of the simulation.
 
 
 ## What's next?
 
-In astronomy, observation is fundamentally limited to a single view (the view from Earth). In practice, it will be valuable to reconstruct the 3D scenes around different astronomical objects using a single input view. Ongoing work focuses on optimizing NeRF architectures with one-shot/few-shot image encoding (e.g., [PixelNeRF](https://github.com/sxyu/pixel-nerf)).
+In astronomy, observation is fundamentally limited to a single view (the view from Earth). In practice, it will be valuable to reconstruct the 3D scenes around different astronomical objects using a single input view.
+The baseline NeRF is known to be rather slow to train. Since its introduction in 2020, there has been a explosion of NeRF-inspired network architectures.
+Neural representation of volumetric data is a particularly promising direction to explore for improving the analysis and visualization workflows in science.
