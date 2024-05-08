@@ -17,7 +17,7 @@ These cosmic explosions are the results of many inter-dependent physical process
 In order to realize these explosions in simulations, scientists rely on a handful of physics solvers each responsible for a subset of physics relevant to a certain stage of explosion.
 However, there is no existing end-to-end pipeline for the process -- scientists have to manually traverse the software stack; each layer of the stack often requires days to learn and a PhD to master. 
 
-### Objective
+## Objective
 
 Joining forces with a few researchers who are masters of various layers of the software stack,
 we set out to construct an end-to-end simulation pipeline capable of evolving stars from their births all the way to their explosive ends. 
@@ -25,7 +25,8 @@ The pipeline should evolve the simulations with minimal human inputs, while prov
 
 
 [//]: # (Work, methods, describe plan and rationale, concisely)
-### Approach 
+
+## Approach 
 
 We employ a few tricks to allow the simulations of stars across large spatial and temporal scales.
 
@@ -44,9 +45,36 @@ We massively parallelize the calculations by offloading them to the GPUs in larg
 For example, the hydrodynamics of a voxel cell cares only about its neighbors; voxels cells are accelerated by the same gravity field; and the equation of state (EoS) update is strictly a local operation. 
 
 
-
 [//]: # (Results, achievement, deliverables, outcomes with merits. Insights, recommendations and opportunities.)
-**What we found:**
+
+## Results
+
+The volume rendering above shows a star a few seconds after the explosion started.
+With the new simulation pipeline, we can now advance the simulations much longer than we used to. 
+Below is a slice plot showing the mid-plane density distribution of the star two days after the explosion.
+
+![Density Slice Two Days Post-Explosion](/files/dens_thetaslice_n_n_2123.png)
+
+Thanks to the logarithmic voxel grids, we are able to track the evolution of the intricate finger-like structures.
+The plot below shows the same region, now displaying the distribution of nickel, an essential chemical element produced in exploding stars.
+
+![Ni56 Slice Two Days Post-Explosion](/files/ni56_thetaslice_n_n_2123_6.png)
+
+Our software pipeline enables researchers to simulate stars across much larger spatial and temporal scales,
+previously unattainable due to technical difficulties. 
+During the development, we also further optimized the GPU offloading strategy to allow asynchronous data transfer and compute,
+leading to a ~2x overall speedup. 
+
+This simulation software development project was awarded a total of 1+ million node-hours on a few leadership-class supercomputers
+including *Frontera* and *Perlmutter*.
+We have deployed our simulation pipeline on all of these platforms, enabling researchers to conduct their own exploding star simulations. 
+
+## What's Next?
 
 [//]: # (Reflection, what next time, what you learn, mistakes and how to avoid.)
-**What's next?** 
+
+We are now in the position to simulate stars not on one-by-one basis, but in populations.
+Like the simulation tools themselves, most existing analysis and visualization tools require a lot of manual tinkering to work well. 
+We are now exploring different approaches to streamline the analysis/visualization pipeline, including interactive graphics and physics engines such as Unreal Engine.
+
+
