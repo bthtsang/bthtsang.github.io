@@ -27,11 +27,21 @@ The pipeline should evolve the simulations with minimal human inputs, while prov
 [//]: # (Work, methods, describe plan and rationale, concisely)
 ### Approach 
 
-We employ a few tricks to follow the evolution of stars across large spatial and temporal scales.
+We employ a few tricks to allow the simulations of stars across large spatial and temporal scales.
 
-logarithmic scale radial widths
-GPU offloading of eos
-adaptively remove blocks from memory
+First, we use a 3D spherical voxel grid with logarithmic radial grid spacing.
+Stars are mostly spheres, so a spherical grid naturally fits the geometry of our problem. 
+The logarithmic grid allocates finer spatial resolution at small radius, 
+allowing the simulations to retain the important small-scale details at the beginning of the stellar explosions.
+As the exploding stars expand, we care much less near the explosion centers and the coarser grid spacing at large radii suffices. 
+
+Second, we design our pipeline to adaptively allocate and deallocate voxel grids depending on the stage of the simulation.
+In the beginning of a stellar explosion, we do not need to keep all the far-away voxels in memory.
+And similarly, long after the explosion took its course, we do not really care about the void it left behind. 
+
+Third, many of the components in our physics solvers are trivially parallelizable. 
+We massively parallelize the calculations by offloading them to the GPUs in large batches.
+For example, the hydrodynamics of a voxel cell cares only about its neighbors; voxels cells are accelerated by the same gravity field; and the equation of state (EoS) update is strictly a local operation. 
 
 
 
