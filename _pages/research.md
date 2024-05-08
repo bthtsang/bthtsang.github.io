@@ -24,7 +24,7 @@ or [ORCID](http://orcid.org/0000-0002-6543-2993).
 ---
 
 ### [Simulating Powerful Outbursts from Red Supergiant Stars](https://bthtsang.github.io/rsg-outbursts/)
-[![Convective RSG](/files/title_rsg_mesa_rf6_hdf5_chk__dens_phislice_y_n_0283.png)](https://bthtsang.github.io/rsg-outbursts/)
+[![Convective RSG](/files/title_rsg_mesa_rf6_hdf5_chk__dens_phislice_y_n_0283_resize.png)](https://bthtsang.github.io/rsg-outbursts/)
 
 ---
 
