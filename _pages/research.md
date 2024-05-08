@@ -1,30 +1,39 @@
 ---
 permalink: /research/
-title: "Research"
+title: "Research Portfolio"
 author_profile: true
 ---
 
-## You can find my full publication list at [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/tbxiKajfTsSjDC7Ir7sZxA), [Google Scholar](https://scholar.google.com/citations?user=nGVc2BAAAAAJ&hl=en), or [ORCID](http://orcid.org/0000-0002-6543-2993).
+## Research Interests
+My research spans a broad range of topics in computational astrophysics. They can roughly be grouped into:
+- Realize the complex interplay of physics in stars with high-fidelity numerical simulations;
+- Enhance the performance and scalability of fluid and path-traced radiation simulations on CPU+GPU platforms;
+- Test and develop deep learning techniques for streamlining our simulation and analysis workflows.
 
-## Research Interests 
-My research involves a broad range of topics in computational astrophysics. They can roughly be grouped into:
-- Enhance the efficiency and accuracy of radiation/light transport and fluid dynamics simulations on heterogeneous computing platforms;
-- Develop and deploy deep learning techniques to streamline our radiation/light transport and data analysis workflows;
-- Study the effects of strong radiation-matter coupling in stellar systems.
+In the following, you will find links to a few of my recent/ongoing projects.
+For past projects, feel free to find my full publication list at 
+[Google Scholar](https://scholar.google.com/citations?user=nGVc2BAAAAAJ&hl=en), 
+[NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/tbxiKajfTsSjDC7Ir7sZxA), 
+or [ORCID](http://orcid.org/0000-0002-6543-2993).
 
-In the following, you will find links to a few ongoing/side projects that I am working on.
+## Recent Projects
 
-## Ongoing Work
-- [Exploring the applications of neural radiance fields in science visualization](https://bthtsang.github.io/nerf/)
-- [Supernova progenitor parameter estimation with invertible neural networks](https://bthtsang.github.io/inn4iip/)
-- [Simulating pre-supernova outbursts from red supergiant stars](https://bthtsang.github.io/rsg-outbursts/)
+[![VR F2F Simulation](/files/title_dens_n_0000_128_0090.png)](https://bthtsang.github.io/starsend2end/)
+### [An End-to-end Software Pipeline to Simulate Exploding Stars](https://bthtsang.github.io/starsend2end/)
 
-## Software Instruments
-Here's a list of software instruments I use in my research. 
-- [FLASH](https://flash.rochester.edu/site/): multi-physics, magneto-hydrodynamics code
-- [FLASH-MCRHD](https://github.com/bthtsang/FLASH-MCRHD): a Monte Carlo radiation hydrodynamics module I wrote from scratch to support my work
-- [Sedona](https://ui.adsabs.harvard.edu/abs/2006ApJ...651..366K/abstract): Monte Carlo radiation transport code for modeling supernovae and other transient phenomena
-- [Arepo](https://arepo-code.org/about-arepo): moving-mesh magneto-hydrodynamics code
-- [STELLA](http://www.ascl.net/1108.013): a 1D multi-group radiation hydrodynamics code
-- [PyTorch](https://pytorch.org/): an open source, general purpose machine learning framework
-- [Keras/Tensorflow](https://keras.io/about/): another deep learning library for fast experimentation
+---
+
+[![Convective RSG](/files/title_rsg_mesa_rf6_hdf5_chk__dens_phislice_y_n_0283.png)](https://bthtsang.github.io/rsg-outbursts/)
+### [Simulating Powerful Outbursts from Red Supergiant Stars](https://bthtsang.github.io/rsg-outbursts/)
+
+---
+
+![Dusty Wind Simulation](/files/dens_cropped_zslice_n_0063_Spectral_r.png)
+### [A Machine-Learned Radiation Transport Solver](https://bthtsang.github.io/mlrhd/)
+- try to use ML to speed up monte carlo radiation hydrodynamics.
+
+---
+
+[![NeRF with Turbulence](/files/nerf_exercise.png)](https://bthtsang.github.io/nerf/)
+### [Exploring Neural Rendering of Astrophysical Simulation Data](https://bthtsang.github.io/nerf/)
+
