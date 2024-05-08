@@ -16,24 +16,25 @@ For past projects, feel free to find my full publication list at
 [NASA ADS](https://ui.adsabs.harvard.edu/user/libraries/tbxiKajfTsSjDC7Ir7sZxA), 
 or [ORCID](http://orcid.org/0000-0002-6543-2993).
 
-## Recent Projects
+## Recent/Ongoing Projects
 
-[![VR F2F Simulation](/files/title_dens_n_0000_128_0090.png)](https://bthtsang.github.io/starsend2end/)
 ### [An End-to-end Software Pipeline to Simulate Exploding Stars](https://bthtsang.github.io/starsend2end/)
+[![VR F2F Simulation](/files/title_dens_n_0000_128_0090.png)](https://bthtsang.github.io/starsend2end/)
 
 ---
 
-[![Convective RSG](/files/title_rsg_mesa_rf6_hdf5_chk__dens_phislice_y_n_0283.png)](https://bthtsang.github.io/rsg-outbursts/)
 ### [Simulating Powerful Outbursts from Red Supergiant Stars](https://bthtsang.github.io/rsg-outbursts/)
+[![Convective RSG](/files/title_rsg_mesa_rf6_hdf5_chk__dens_phislice_y_n_0283.png)](https://bthtsang.github.io/rsg-outbursts/)
 
 ---
 
-![Dusty Wind Simulation](/files/dens_cropped_zslice_n_0063_Spectral_r.png)
-### [A Machine-Learned Radiation Transport Solver](https://bthtsang.github.io/mlrhd/)
-- try to use ML to speed up monte carlo radiation hydrodynamics.
-
----
-
-[![NeRF with Turbulence](/files/nerf_exercise.png)](https://bthtsang.github.io/nerf/)
 ### [Exploring Neural Rendering of Astrophysical Simulation Data](https://bthtsang.github.io/nerf/)
+[![NeRF with Turbulence](/files/nerf_exercise.png)](https://bthtsang.github.io/nerf/)
+
+--- 
+
+### [A Machine-Learned Radiation Transport Solver](https://bthtsang.github.io/mlrhd/)
+![Dusty Wind Simulation](/files/dens_cropped_zslice_n_0063_Spectral_r_resize.png)
+
+---
 
