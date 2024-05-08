@@ -4,7 +4,8 @@ title: "Simulating RSG Pre-supernova Outbursts"
 author_profile: false
 ---
 
-{% include video id="Y6OD6_Ck6T0" provider="youtube" %}
+<iframe width="560" height="560" src="https://www.youtube.com/embed/Y6OD6_Ck6T0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <iframe src="https://www.youtube.com/shorts/Y6OD6_Ck6T0" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ## Context
