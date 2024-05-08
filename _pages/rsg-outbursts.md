@@ -6,8 +6,6 @@ author_profile: false
 
 <iframe width="560" height="560" src="https://www.youtube.com/embed/Y6OD6_Ck6T0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/shorts/Y6OD6_Ck6T0" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
 ## Context
 
 Months to years before massive stars explode as supernovae, most of them exhibit elevated levels of surface activities.
@@ -35,7 +33,7 @@ We then sat back and observed what happened to the star.
 
 ## Results:
 
-<iframe src="https://www.youtube.com/shorts/Xn_Zpxs8oHY" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="560" src="https://www.youtube.com/embed/Xn_Zpxs8oHY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The reaction of the star following the energy injection can be seen in the video above.
 The "thermal bomb" placed in the star launched the top layer of the star upward. 
@@ -46,7 +44,7 @@ An inflated, still turbulent, stellar surface remained.
 As a control experiment, we repeated the energy injection simulation but replaced the star with one *without* convection. 
 The model was then effectively "1D", mimicking the 1D setup most prior work were based on.
 
-<iframe src="https://www.youtube.com/shorts/PY66jUi5Xiw" width="640" height="640" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="560" src="https://www.youtube.com/embed/PY66jUi5Xiw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Similar to the above convective case, turbulent instabilities readily developed in the energy injection zone. 
 However, without the convective motions seeding the formation of "outburst channels", 
